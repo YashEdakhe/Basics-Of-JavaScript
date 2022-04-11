@@ -2,7 +2,7 @@
 
 Hello there!
 
-Here, we will try to understand the concept of call(), apply() and bind() in JavaScript with the help of an example.
+Here, we will try to understand the concept of call() and apply() in JavaScript with the help of an example.
 
 ```
 let place = {
@@ -157,11 +157,10 @@ let place_2 = {
 let place_3 = {
     famousFor: "Venetian Hotel",
     location: "Las Vegas",
-  };
+};
 
 let printPlace = function (buildBy, inYear) {
-  console.log(
-    this.famousFor + " is in " + this.location + ". It was built by " + buildBy + " in year " + inYear);
+  console.log(this.famousFor + " is in " + this.location + ". It was built by " + buildBy + " in year " + inYear);
 };
 
 //call()
@@ -177,6 +176,3 @@ World Trade Center is in New York. It was built by Minoru Yamasaki Emery Roth & 
 Colosseum is in Rome. It was built by Titus and Dominitian in year 70 AD
 Gambling is in Las Vegas. It was built by Goverment of USA in year 1995
 ```
-
-# bind()
-
