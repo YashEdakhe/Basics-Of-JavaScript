@@ -1,4 +1,4 @@
-# Basics-Of-JavaScript
+# Call and Apply
 
 Hello there!
 
